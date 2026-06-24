@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+
+# 数据（不入 git）
+data/arxiv_analyse.db
+data/arxiv_analyse.db-wal
+data/arxiv_analyse.db-shm
+data/papers/
+data/cache/
+data/.kaggle/
+
+# Kaggle 原始文件
+arxiv-metadata-oai-snapshot.json
+
+.idea/
+.vscode/
+*.swp
