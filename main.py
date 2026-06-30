@@ -45,8 +45,8 @@ logger = logging.getLogger(__name__)
 
 PAPERS_DIR = ROOT / "data" / "papers"
 BATCH_SIZE = 5000
-DOWNLOAD_WORKERS = 10
-DOWNLOAD_BATCH = 500
+DOWNLOAD_WORKERS = 100
+DOWNLOAD_BATCH = 10000
 
 _interrupted = False
 
